@@ -19,15 +19,15 @@ def save_images(images, name):
     torchvision.utils.save_image(images, filename)
 
 def main():
-    deblurnet = model(num_resblocks=[7, 7, 7, 7], input_channels=[3, 6, 6, 6]).to(device)
-    deblurnet.load_state_dict(torch.load(CHECKPOINT))
+    sfnet = model(num_resblocks=[7, 7, 7, 7], input_channels=[3, 6, 6, 6]).to(device)
+    sfnet.load_state_dict(torch.load(CHECKPOINT))
     print('load deblurnet success')
 
     if os.path.exists(TEST_RESULTS) == False:
         os.mkdir(TEST_RESULTS)
 
     # Hardware warm-up
-    deblurnet(torch.randn(1, 3, 256, 256).cuda())
+    sfnet(torch.randn(1, 3, 256, 256).cuda())
 
     test_time = 0.0
     iteration = 1.0
@@ -37,7 +37,7 @@ def main():
             input_image = Variable(input_image-0.5).unsqueeze(0).to(device)
 
             start = time.time()
-            d4 = deblurnet(input_image)[0]
+            d4 = sfnet(input_image)[0]
             stop = time.time()
             test_time += stop - start
             save_images(d4+input_image+0.5, images_name)
