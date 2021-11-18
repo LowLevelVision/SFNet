@@ -1,0 +1,2 @@
+Please download GoPro dataset into './dataset'.
+https://drive.google.com/file/d/1y4wvPdOG3mojpFCHTqLgriexhbjoWVkK/view
