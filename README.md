@@ -28,4 +28,4 @@ python test.py
 ```
 
 ## Results
-The deblurring results of SFNet on GoPro test set: https://drive.google.com/file/d/1u2sAX5vbsargtyaF8Rd_VpSHfEakzrM8/view
+The deblurred results of SFNet on GoPro test set: https://drive.google.com/file/d/1u2sAX5vbsargtyaF8Rd_VpSHfEakzrM8/view
