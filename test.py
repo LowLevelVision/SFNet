@@ -10,7 +10,7 @@ from models import model
 device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 torch.backends.cudnn.benchmark = True if torch.cuda.is_available() else False
 
-CHECKPOINT = 'SFNet.pth'
+CHECKPOINT = 'ckpts/SFNet.pth'
 TEST_SAMPLES = 'test_samples'
 TEST_RESULTS = 'test_resutls'
 
