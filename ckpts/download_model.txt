@@ -1,0 +1,2 @@
+Please download pretrained model into './ckpts'.
+https://drive.google.com/file/d/1KKv-6ccdsMN32JA715LoXGOCLt7twpqE/view
