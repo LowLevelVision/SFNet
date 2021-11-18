@@ -1,5 +1,7 @@
 # Spatial-Aware Fully-Cascaded Network for Motion Deblurring
 
+__The main source code of our SFNet has been included in the supplementary materials, and it will be published later on GitHub.__
+
 ## Dependencies
 python
 ```
