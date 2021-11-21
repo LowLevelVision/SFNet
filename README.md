@@ -30,4 +30,4 @@ python test.py
 ## Results
 The deblurred results of SFNet on GoPro test set: https://drive.google.com/file/d/1u2sAX5vbsargtyaF8Rd_VpSHfEakzrM8/view
 
-The results of visual comparisons https://drive.google.com/file/d/15kUXcQog5hb7BCwsKHkHH0qeEk8hQwZ2/view
+The results of visual comparisons: https://drive.google.com/file/d/15kUXcQog5hb7BCwsKHkHH0qeEk8hQwZ2/view
