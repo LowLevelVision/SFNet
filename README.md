@@ -1,4 +1,4 @@
-# Spatial-Aware Fully-Cascaded Network for Motion
+# Spatial-Aware Fully-Cascaded Network for Motion Deblurring
 
 ## Dependencies
 python
